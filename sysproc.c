@@ -89,3 +89,9 @@ sys_uptime(void)
   release(&tickslock);
   return xticks;
 }
+//author:Tejasri Reddy Kadari
+//returns a greeting message
+int sys_hello(void){
+	cprintf("Hello world\n");
+	return 22;
+}
